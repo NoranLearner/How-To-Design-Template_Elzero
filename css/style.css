@@ -1,0 +1,169 @@
+/* Start Main Rules */
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #ddd;
+    direction: rtl;
+}
+
+.container{
+    width: 940px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+ul , ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* End Main Rules */
+
+
+
+
+/* Start Header */
+
+header{
+    min-height: 100px;
+    background-color: #aaa;
+    overflow: hidden; 
+}
+
+header .logo{
+    width: 20%;
+    float: right;
+}
+
+header .logo img{
+    width: 100px;
+    margin: 20px 20px 20px 0;
+}
+
+header nav{
+    width: 80%;
+    float: left;
+}
+
+header nav ul{
+    margin: 50px 50px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* End Header */
+
+
+
+
+/* Start Content */
+
+.content{
+    background-color:#bbb;
+    overflow: hidden;
+}
+
+.content .sidebar{
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+}
+
+.content .sidebar .widget{
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+.content .sidebar .widget .title{
+    background-color: #222;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.content .sidebar .widget .data ul{
+    text-align: right;
+}
+
+.content .sidebar .widget .data ul li{
+    padding-right: 10px;
+}
+
+.content .sidebar .widget .data{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.content .sidebar .widget .data img{
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+.content .products{
+    float: left;
+    width: 74%;
+    margin: 0 0 20px 0;
+}
+
+.content .products .product{
+    width: 22%;
+    margin-left: 3%;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    background-color: #fff;
+}
+
+.content .products .product img{
+    max-width: 100%;
+}
+
+/* End Content */
+
+
+
+
+
+/* Start Footer */
+
+footer{
+    min-height: 100px;
+    background-color: #ccc;
+}
+
+footer .info{
+    background-color: #676767;
+    overflow: hidden;
+}
+
+footer .info .box{
+    width: 30%;
+    float: right;
+    margin-left: 3%;
+}
+
+footer .info ul{
+    margin: 10px 10px 0 0;
+}
+
+footer .info h3{
+    border-bottom: 1px solid #ccc;
+} 
+
+footer .copyright{
+    background-color: #333;
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* End Footer */
